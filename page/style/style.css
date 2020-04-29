@@ -17,20 +17,18 @@ form{
 	font-weight: bold;
 	letter-spacing: 2%;
 	text-align: center;
-
-
-
 }
 
 
 .container{
 	width: 40vh;
-	margin-top: 20%;
-	height: 40vh;
+	margin :  10% auto ;
+	height: 45vh;
 	display: flex; 
 	flex-direction: column;
 	justify-content: space-around;
 	border-radius:  2%;
+	background-color: #142850;
 }
 .contain{
 	width: 30vh;
@@ -119,3 +117,14 @@ p{
 
 }
 
+input{
+	color: #ffff;
+	font-size: 3vh;
+	font-weight: bold;
+}
+
+label{
+	color : #ffff;
+	font-weight: bold;
+	font-size : 2vh ;
+}

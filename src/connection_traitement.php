@@ -2,10 +2,9 @@
 session_start();
 require('connection.php');
 
-print_r($_POST);
 if (isset($_POST['identifiant']) and isset($_POST['mdp'])) {
   // code...
-
+	$_SESSION['wrong_credential'] = false;
 
 
 
@@ -29,7 +28,10 @@ if(($data_identifiant == $identifiant) AND ($data_mot_de_passe == $mot_de_passe)
 
 
 }else{
-  echo 'nop';
+	$_SESSION['wrong_credential'] = true;
+	header('Location: ../index.php');
+
+  
 }
 }
 

@@ -44,6 +44,16 @@ header('Location: ./page/showroom.php');
         <div class="Password contain ">
           <label>mot de passe </label>
           <input type="password" name="mdp" value="">
+        <?php 
+        if($_SESSION['wrong_credential']){
+          ?>
+          <p class="wrong_credential">Mauvais mot de passe ou Indentifiants</p>
+
+          <?php 
+        }
+
+
+        ?>
         </div>
 
 
