@@ -1,0 +1,121 @@
+
+form{
+	margin-top: 20%;
+	background: rgba(67,216,201,0.3);
+	width: 40vh;
+	
+}
+
+.div-cookies{
+	width: 50vh;
+	margin: auto;
+}
+
+.cookies{
+	font-size: 2vh;
+	color: #035aa6;
+	font-weight: bold;
+	letter-spacing: 2%;
+	text-align: center;
+
+
+
+}
+
+
+.container{
+	width: 40vh;
+	margin-top: 20%;
+	height: 40vh;
+	display: flex; 
+	flex-direction: column;
+	justify-content: space-around;
+	border-radius:  2%;
+}
+.contain{
+	width: 30vh;
+	margin: auto;
+	height: 20vh;
+}
+
+p{
+	text-align: center;
+	font-size: 2vh;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.submit{
+	width: 20vh;
+	margin: 10% auto;
+	border :  none;
+	padding: 2vh 1vh ;
+	border-radius: 2vh;
+	background-color: #55E135;
+	color:  #FFFFFF ; 
+	font-size: 2vh;
+}
+
+.create{
+	display: flex;
+	justify-content: space-around;
+	margin: 2%;
+}
+
+
+
+.containing{
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: auto;
+	
+}
+
+.panier{
+	position: relative;
+	margin-top: 2%;
+	width: 30vh;
+	height: 25vh;
+	background-color: #12F30D; 
+	padding: 2%;
+
+
+}
+
+.panier li {
+	font-size: 2vh;
+}
+
+.panier h1{
+	font-size: 3vh;
+}
+
+.course{
+	border:  none;
+	margin: aut
+}
+
+.deco{
+	margin:  20px 0px 5px 20px;
+	border: none;
+	padding: 1vh 2vh;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	font-size: 3vh;
+	border-radius: 2vh;
+}
+
+.deco:hover{
+	margin:  20px 0px 5px 20px;
+	border: none;
+	padding: 1vh 2vh;
+	background-color: #001BFF;
+	color: #FFFFFF;
+	font-size: 3vh;
+	border-radius: 2vh;
+
+
+}
+
