@@ -17,8 +17,6 @@ $data = $req -> fetch();
 $data_identifiant = $data['identifiant'];
 $data_mot_de_passe = $data['mdp'];
 
-echo $data_identifiant;
-echo $data_mot_de_passe;
 
 if(($data_identifiant == $identifiant) AND ($data_mot_de_passe == $mot_de_passe)){
 	$_SESSION['connected'] = true;
